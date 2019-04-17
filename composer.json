@@ -1,0 +1,11 @@
+{
+	"name": "rodrigoolv/petshop",
+	"description": "template de site para petshop",
+	"type": "project",
+	"license": "MIT",
+	"minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "^4.3",
+        "components/jquery": "^3.3"
+    }
+}

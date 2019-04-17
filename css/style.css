@@ -1,0 +1,110 @@
+@charset "utf-8";
+@author "RodrigoOlv";
+
+nav{
+	padding: 0px auto !important;
+}
+
+h2, p, figcaption{
+	font-family: Helvetica, Arial;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #111;
+}
+
+p{
+	font-size: 20px;
+	text-align: justify;
+	padding: 20px 20px 20px 0;
+}
+
+a{
+	color: #2f0604ff;
+}
+
+article {
+	margin-top: 20px;
+}
+
+figure {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure > img {
+	margin: 20px auto auto;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+aside {
+	margin: 25px auto 20px auto;
+}
+
+aside > section :first-child {
+	transform: rotate(10deg);
+	margin-left: 70px;
+}
+
+aside > section :last-child {
+	transform: rotate(-13deg);
+}
+
+#main{
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 208px;
+	padding-bottom: 30px
+}
+
+.nav-link {
+	color: #2f0604ff;
+	font-size: 23px !important;
+	display: block;
+	padding: 0.5rem 1rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+	color: #fff !important;
+	background-color: #2f0604ff !important;
+	text-decoration: none;
+}
+
+.nav-link.disabled {
+  color: #2f0604ff;
+  pointer-events: none;
+  cursor: default;
+}
+
+
+.btn-outline-dark {
+  color: #2f0604ff;
+  border-color: #2f0604ff;
+}
+
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #2f0604ff;
+  border-color: #2f0604ff;
+}
+
+.btn-outline-dark:focus, .btn-outline-dark.focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-dark.disabled, .btn-outline-dark:disabled {
+  color: #2f0604ff;
+  background-color: transparent;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
+.show > .btn-outline-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #2f0604ff;
+  border-color: #2f0604ff;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-dark.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
