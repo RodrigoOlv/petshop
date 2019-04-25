@@ -53,6 +53,9 @@ aside > section :last-child {
 	background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	/*opcional*/
+	background-attachment: fixed;
+	background-position: top; 
 	padding-top: 208px;
 	padding-bottom: 30px
 }
