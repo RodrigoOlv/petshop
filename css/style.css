@@ -5,7 +5,11 @@ nav{
 	padding: 0px auto !important;
 }
 
-h2, p, figcaption{
+h2,
+h3,
+p,
+figcaption
+{
 	font-family: Helvetica, Arial;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #111;
@@ -14,7 +18,7 @@ h2, p, figcaption{
 p{
 	font-size: 20px;
 	text-align: justify;
-	padding: 20px 20px 20px 0;
+	/*padding: 20px 20px 20px 0;*/
 }
 
 a{
@@ -50,10 +54,10 @@ aside > section :last-child {
 }
 
 #main{
+	width: 100%;
 	background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*opcional*/
 	background-attachment: fixed;
 	background-position: top; 
 	padding-top: 208px;
@@ -91,23 +95,31 @@ aside > section :last-child {
   border-color: #2f0604ff;
 }
 
-.btn-outline-dark:focus, .btn-outline-dark.focus {
+.btn-outline-dark:focus,
+.btn-outline-dark.focus
+{
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
-.btn-outline-dark.disabled, .btn-outline-dark:disabled {
+.btn-outline-dark.disabled,
+.btn-outline-dark:disabled
+{
   color: #2f0604ff;
   background-color: transparent;
 }
 
-.btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
-.show > .btn-outline-dark.dropdown-toggle {
+.btn-outline-dark:not(:disabled):not(.disabled):active,
+.btn-outline-dark:not(:disabled):not(.disabled).active,
+.show > .btn-outline-dark.dropdown-toggle
+{
   color: #fff;
   background-color: #2f0604ff;
   border-color: #2f0604ff;
 }
 
-.btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-dark.dropdown-toggle:focus {
+.btn-outline-dark:not(:disabled):not(.disabled):active:focus,
+.btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-dark.dropdown-toggle:focus
+{
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
